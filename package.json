@@ -1,0 +1,26 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pamelachristina/Eat_Da_Burger.git"
+  },
+  "author": "Pamela Sanchez Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pamelachristina/Eat_Da_Burger/issues"
+  },
+  "homepage": "https://github.com/Pamelachristina/Eat_Da_Burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "i": "^0.3.6",
+    "mysql": "^2.17.1"
+  }
+}
