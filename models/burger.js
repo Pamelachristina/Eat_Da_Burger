@@ -5,7 +5,8 @@ var burger = {
       orm.all("burgers",  function(res){
         cb(res);
       });
-    }
+    },
+
 }
     
 
