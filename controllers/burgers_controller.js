@@ -21,6 +21,15 @@ router.put('/burgers/update' , function(req,res) {
   });
 });
 
+router.post('/burgers/update' , function(req,res) {
+  orm.create("burgers",req.body.burger_name, function(result){
+    console.log(result);
+    res.redirect('/');
+  });
+});
+
+
+
 
 // Export routes for server.js to use.
 module.exports = router;
